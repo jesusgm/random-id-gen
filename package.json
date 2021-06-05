@@ -1,0 +1,25 @@
+{
+  "name": "random-id-gen",
+  "version": "1.0.0",
+  "description": "Generate a random id string with a prefix and allows to configurate the chars and length",
+  "main": "src/index.js",
+ "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgm/random-id-gen.git"
+  },
+  "author": "Jesús Gándara Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusgm/random-id-gen/issues"
+  },
+  "homepage": "https://github.com/jesusgm/random-id-gen#readme",
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "np": "^7.5.0"
+  }
+}
