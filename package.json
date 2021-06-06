@@ -1,9 +1,9 @@
 {
   "name": "random-id-gen",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate a random id string with a prefix and allows to configurate the chars and length",
   "main": "src/index.js",
- "scripts": {
+  "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "release": "np"
